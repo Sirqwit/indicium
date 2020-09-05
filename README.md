@@ -40,6 +40,7 @@ def diag(k, s):
                     s += n
             return    
     yield (grid)
+```
 
 The function dpos checks if the value can actually be in the diagonal position.
 
@@ -57,6 +58,7 @@ def solve(k):
                         grid[y][x] = 0
                 return
     yield (grid)
+```
 
 In conclusion the idea is: 
 find possible diagonal matrix 
