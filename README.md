@@ -1,5 +1,5 @@
 # python solution for Indicium
-Problem
+roblem
 '
 Indicium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
