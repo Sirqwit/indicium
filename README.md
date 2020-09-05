@@ -1,5 +1,9 @@
+2020-09-05  sam  <sam@work>
+
+	* 
+
 # python solution for Indicium
-roblem
+Protroblem
 '
 Indicium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
