@@ -54,6 +54,8 @@ def pr(sol, k):
             print(sol[x][y], '', end = '')
         print()
 
+
+        
 def main():
     global grid
     N = int(input()) 
@@ -65,13 +67,20 @@ def main():
         grid = create(k)
         d = diag(k, s)        
         print('Case #{}: '.format(i), end = '')
-        
+
+'''
+# PRINT ALL POSSIBLE SOLUTION
         for possible in d:
-            #print(possible)
+            print(" ")
             grid = possible
             s = solve(k)
-            #solution = next(s)
-            
+            for t in s:
+                print(t)
+'''
+
+        for possible in d:
+            grid = possible
+            s = solve(k)
             for t in s:
                 solution = t
                 found = True
