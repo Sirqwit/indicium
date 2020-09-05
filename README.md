@@ -1,6 +1,6 @@
 # python solution for Indicium
 Problem
-
+'
 Indicium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
 A Latin square is an N-by-N square matrix in which each cell contains one of N different values, such that no value is repeated within a row or a column. In this problem, we will deal only with "natural Latin squares" in which the N values are the integers between 1 and N.
@@ -18,3 +18,4 @@ The first line of the input gives the number of test cases, T. T test cases foll
 Output
 
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is IMPOSSIBLE if there is no answer for the given parameters or POSSIBLE otherwise. In the latter case, output N more lines of N integers each, representing a valid "natural Latin square" with a trace of K, as described above. 
+'
