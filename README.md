@@ -61,11 +61,11 @@ def solve(k):
 ```
 
 In conclusion the idea is: 
-find possible diagonal matrix 
-try to fill it
-if is true print POSSIBLE and the matrix solution
-else try another diagonal
+> find possible diagonal matrix. 
+> try to fill it.
+> if is true print POSSIBLE and the matrix solution.
+> else try another diagonal.
 
-The problem of this program, besides the fact that the code can be written better, is that is very slow if the diagonal exist but it can not be filled,
+The problem of this program, besides the fact that the code can be written better, is that is very slow if the diagonal exist but it can not be filled.
 A solution to improve the performance is to create a better diagonal solver and add condition.
 The good thing about this program is that it can easly print all possibles solution (I commented out that part in the code). Keep in mind that the grid must be small otherwise it will take very long time :)
