@@ -12,9 +12,9 @@ I suggest you look [Laziness in Python - Computerphile](https://www.youtube.com/
 >
 > Given values N and K, produce any N-by-N "natural Latin square" with trace K, or say it is impossible. For example, here are two possible answers for N = 3, K = 6. In each case, the values that contribute to the trace are underlined.
 >
-> 2 1 3   3 1 2
-> 3 2 1   1 2 3
-> 1 3 2   2 3 1
+>- 2 1 3   3 1 2
+>- 3 2 1   1 2 3
+>- 1 3 2   2 3 1
 > Input
 >
 > The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing two integers N and K: the desired size of the matrix and the desired trace.
@@ -61,10 +61,10 @@ def solve(k):
 ```
 
 In conclusion the idea is: 
-> find possible diagonal matrix. 
-> try to fill it.
-> if is true print POSSIBLE and the matrix solution.
-> else try another diagonal.
+- find possible diagonal matrix. 
+- try to fill it.
+- if is true print POSSIBLE and the matrix solution.
+- else try another diagonal.
 
 The problem of this program, besides the fact that the code can be written better, is that is very slow if the diagonal exist but it can not be filled.
 A solution to improve the performance is to create a better diagonal solver and add condition.
