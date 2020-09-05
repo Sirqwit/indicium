@@ -12,9 +12,10 @@ I suggest you look [Laziness in Python - Computerphile](https://www.youtube.com/
 >
 > Given values N and K, produce any N-by-N "natural Latin square" with trace K, or say it is impossible. For example, here are two possible answers for N = 3, K = 6. In each case, the values that contribute to the trace are underlined.
 >
->- 2 1 3   3 1 2
->- 3 2 1   1 2 3
->- 1 3 2   2 3 1
+>- 2 1 3 - 3 1 2
+>- 3 2 1 - 1 2 3
+>- 1 3 2 - 2 3 1
+> 
 > Input
 >
 > The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing two integers N and K: the desired size of the matrix and the desired trace.
